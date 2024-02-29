@@ -1,0 +1,87 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#root {
+  min-width: 350px;
+  width: 40%;
+  min-height: 100vh;
+  background-image: url("/src/assets/uta.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  display: flex;
+  position: relative;
+}
+
+.componentes{
+  width: 100%;
+}
+
+.logoanime{
+  display: flex;
+  position: absolute;
+  top: 0;
+  left: 404px;
+  width: 20%;
+}
+
+.central{
+  background-color: rgba(237, 199, 255, 0.619);
+  color: #000;
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  margin-top: 330px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.info{
+  font-size: .9rem;
+}
+
+.titulo-principal{
+  display: flex;
+  position: absolute;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  width: 100%;
+  height: 60px;
+  background-color: #feb1b1b1;
+  
+}
+
+.titulo{
+  display: flex;
+  position: relative;
+  width: auto;
+  font-size: 4rem;
+  letter-spacing:1rem;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.titulo, strong{
+  color:rgb(255, 0, 0);
+}
+
+.text{
+  display: flex;
+  position: absolute;
+  justify-content: center;
+  text-align: center;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.632);
+  height: 3%;
+  width: 100%;
+}
+
+.container{
+  color:rgb(255, 255, 255);
+  font-size: 1rem;
+  letter-spacing:.2rem;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
